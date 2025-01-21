@@ -5,10 +5,10 @@ This is the library containing modules/classes to support the same functionality
 ## Modules
 - **Wireless Communication Module**: Handles ESP-NOW communication and configuration.
 - **I2C Module**: Manages communication over the I2C protocol.
-- **Timer Functionality Module**: Provides reusable timer functions.
+- **Hardware Timer Module**: Provides reusable timer functions.
   ESP_HW_Timer.h , ESP_HW_Timer.cpp
 
-## Timer Functionality Module
+## HW Timer Module
 
 The **Timer Functionality Module** offers a simple interface for managing hardware timers on ESP boards. It supports two hardware timers (Timer0 and Timer1) and allows precise timing control for tasks such as sampling or periodic actions. 
 
