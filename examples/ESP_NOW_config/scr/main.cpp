@@ -15,6 +15,11 @@ struct ESPNow_pckt {
     float humidity;
 };
 
+void onDataRecv(const uint8_t *mac, const uint8_t *incomingData, int len){};
+
+void onDataSend(const uint8_t *mac_addr, esp_now_send_status_t status){};
+
+
 void setup() {
     Serial.begin(921600); // Initialize serial communication
 
