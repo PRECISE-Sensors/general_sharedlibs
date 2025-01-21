@@ -4,7 +4,7 @@
 TimerHW timer(1000, 1); // 1ms interval, Timer1
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(921600);
   timer.begin(); // Start the timer
 }
 
