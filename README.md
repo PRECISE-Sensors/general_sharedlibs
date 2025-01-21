@@ -1,0 +1,1 @@
+# smartiwear_sharedlibs
