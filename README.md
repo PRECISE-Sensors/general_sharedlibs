@@ -18,3 +18,13 @@ The **Timer Functionality Module** offers a simple interface for managing hardwa
 - **Atomic Flags**: Provides thread-safe, atomic flags (`timer0_flag` and `timer1_flag`) to signal timer events.
 - **Begin and Stop**: Easy-to-use methods to start (`begin`) and stop (`stop`) the timer.
 - **ISR Handling**: Built-in interrupt service routines (ISRs) to handle timer events efficiently.
+
+
+## Wireless Communication Module
+
+The **Wireless Communication Module** simplifies the setup and operation of ESP-NOW communication for ESP boards. 
+### Features:
+- **Configurable Parameters**: Set WiFi channel, data rate, and optional peer MAC addresses for optimized communication.
+- **Broadcast Support**: Utilizes a default broadcast address or custom MAC addresses for targeted communication.
+- **Template-Based Data Transmission**: Supports sending any data type, ensuring flexibility for diverse use cases.
+- **ESP-NOW Initialization**: Configures ESP-NOW communication and WiFi settings efficiently.
