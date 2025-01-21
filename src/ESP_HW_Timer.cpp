@@ -3,8 +3,14 @@
 #include <atomic>
 #include "ESP_HW_TImer.h"
 
+// Define static variables
+volatile std::atomic<bool> TimerHW::timer0_flag{false};
+volatile std::atomic<bool> TimerHW::timer1_flag{false};
+
+
 void TimerHW::begin()
 {
+  
   timer = timerBegin(timerIndex_, 80, true); // Timer index, prescaler 80, counting up
                                              // *uint16_t prescaler_val = 80;*- determines the clock division for the timer. Timer Clock Frequency = APB Clock Frequency / (prescaler_val + 1)
                                              //  to 1 MHz (80 MHz / (80 + 1) = 1 MHz)
