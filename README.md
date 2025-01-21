@@ -28,3 +28,10 @@ The **Wireless Communication Module** simplifies the setup and operation of ESP-
 - **Broadcast Support**: Utilizes a default broadcast address or custom MAC addresses for targeted communication.
 - **Template-Based Data Transmission**: Supports sending any data type, ensuring flexibility for diverse use cases.
 - **ESP-NOW Initialization**: Configures ESP-NOW communication and WiFi settings efficiently.
+### Important Notes:
+- **ESP-NOW Data Rates**: You can choose a specific data rate for communication. For detailed information, refer to the [ESP-IDF Data Rates Documentation](https://github.com/espressif/esp-idf/blob/625bd5eb1806809ff3cc010ee20d1f750aa778a1/components/esp_wifi/include/esp_wifi_types.h#L474).
+- **WiFi Channel**: Ensure the WiFi channel is consistent across all communicating devices.
+- **Data Consistency**: The data structure of the transmitted packet must be identical between the transmitter and receiver.
+- **Broadcast vs Peer-to-Peer**: By default, ESP-NOW uses a broadcast address. You can specify a peer MAC address for targeted communication.
+
+---
