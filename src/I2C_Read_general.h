@@ -1,3 +1,4 @@
+#ifndef EXCLUDE_I2C_READ_GENERAL
 
 #ifndef I2C_FUNCTIONS_H
 #define I2C_FUNCTIONS_H
@@ -61,3 +62,4 @@ public:
 };
 
 #endif // I2C_FUNCTIONS_H
+
