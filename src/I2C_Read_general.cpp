@@ -1,3 +1,5 @@
+#ifndef EXCLUDE_I2C_READ_GENERAL
+
 #include <stdbool.h>
 #include <stdint.h>
 #include <Wire.h>
@@ -142,3 +144,4 @@ using std::endl;
     *byte4 = value & 0xFF;         // Extract the least significant byte
   }
 
+#endif
