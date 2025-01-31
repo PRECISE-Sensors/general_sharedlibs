@@ -62,4 +62,5 @@ public:
 };
 
 #endif // I2C_FUNCTIONS_H
+#endif // EXCLUDE_I2C_READ_GENERAL
 
