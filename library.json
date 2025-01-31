@@ -1,0 +1,6 @@
+{
+  "name": "general_sharedlibs",
+  "version": "0.0.0+20250131154744",
+  "dependencies":{ "Wire": "^1.0"}
+
+}
