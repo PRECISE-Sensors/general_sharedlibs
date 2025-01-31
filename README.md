@@ -1,4 +1,4 @@
-# smartiwear_sharedlibs
+# general_sharedlibs
 
 This is the library containing modules/classes to support the same functionality across the various sensors created under the **Smart Garment** and **BioSpine** projects.
 
